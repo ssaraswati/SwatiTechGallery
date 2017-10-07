@@ -5,6 +5,7 @@
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
+      <button type="button" class="btn">Basic</button>
       <router-view></router-view>
     </main>
   </div>
@@ -27,7 +28,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
 main {
   text-align: center;
   margin-top: 40px;
@@ -51,4 +51,6 @@ header span {
   box-sizing: border-box;
   padding-top: 16px;
 }
+
+@import "~bootstrap/dist/css/bootstrap.css"
 </style>
